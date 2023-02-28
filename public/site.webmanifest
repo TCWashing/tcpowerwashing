@@ -1,0 +1,10 @@
+{
+  "name": "TC Detail | Mobile Car Wash and Detailing for residents of Austin Texas",
+  "short_name": "TC Detail",
+  "description": "Mobile Car Wash and Detailing for residents of Austin Texas",
+  "display": "standalone",
+  "start_url": "/",
+  "theme_color": "#0E1012",
+  "background_color": "#0E1012",
+  "orientation": "portrait"
+}

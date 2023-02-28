@@ -1,0 +1,125 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind variants;
+
+@layer base {
+  @font-face {
+    font-family: "metBold";
+    font-weight: normal;
+    font-display: swap;
+    font-style: normal;
+    -webkit-font-variant-ligatures: no-common-ligatures;
+    text-rendering: optimizeLegibility;
+    src: url("/fonts/Metropolis-Bold.otf") format("opentype");
+  }
+  @font-face {
+    font-family: "metSemiBold";
+    font-weight: normal;
+    font-display: swap;
+    font-style: normal;
+    -webkit-font-variant-ligatures: no-common-ligatures;
+    text-rendering: optimizeLegibility;
+    src: url("/fonts/Metropolis-SemiBold.otf") format("opentype");
+  }
+  @font-face {
+    font-family: "metMedi";
+    font-weight: normal;
+    font-display: swap;
+    font-style: normal;
+    -webkit-font-variant-ligatures: no-common-ligatures;
+    text-rendering: optimizeLegibility;
+    src: url("/fonts/Metropolis-Medium.otf") format("opentype");
+  }
+  @font-face {
+    font-family: "metReg";
+    font-weight: normal;
+    font-display: swap;
+    font-style: normal;
+    -webkit-font-variant-ligatures: no-common-ligatures;
+    text-rendering: optimizeLegibility;
+    src: url("/fonts/Metropolis-Regular.otf") format("opentype");
+  }
+}
+
+@layer utilities {
+  .text-shadow {
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.06);
+  }
+
+  .trans {
+    @apply transition duration-300 ease-in-out;
+  }
+
+  .plansListIcon {
+    list-style-image: url('/img/listIcon.svg');
+}
+  .darkPlansListIcon {
+    list-style-image: url('/img/darkListIcon.svg');
+}
+}
+
+#bg-here {
+  /* overflow-x: hidden; */
+  /* background: url(/background.png) no-repeat center center; */
+  /* background: url('/img/background.png') no-repeat center center fixed; */
+  /* height: 100vh; */
+  /* -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; */
+  background-color: #0c0c0c;
+}
+
+::-moz-selection {
+  background: #4AD8EC;
+  color: #000000;
+}
+
+::-webkit-selection {
+  background: #4AD8EC;
+  color: #000000;
+}
+
+::selection {
+  background: #4AD8EC;
+  color: #000000;
+}
+
+@media only screen and (min-width: 640px) {
+  ::-webkit-scrollbar {
+    width: 10px;
+    background: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #111111;
+  }
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #404040;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+* {
+  font-variant-ligatures: none;
+}
+
+#__next {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
