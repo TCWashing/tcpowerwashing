@@ -1,15 +1,15 @@
 const SEO = {
-  canonical: "https://tcdetail.net/",
-  title: "TC Detail | Mobile Car Wash and Detailing for residents of Austin Texas",
-  titleTemplate: "%s - TC Detail",
-  description: "Mobile Car Wash and Detailing for residents of Austin Texas",
+  canonical: "https://tcwasing.net/",
+  title: "TC Washing | Pressure and Soft Washing for residents of Austin Texas",
+  titleTemplate: "%s - TC Washing",
+  description: "Pressure and Soft Washing service for residents of Austin Texas",
   openGraph: {
-    title: "TC Detail | Mobile Car Wash and Detailing for residents of Austin Texas",
+    title: "TC Washing | Pressure and Soft Washing for residents of Austin Texas",
     description: "Mobile Car Wash and Detailing for residents of Austin Texas",
     type: "website",
     locale: "en_IE",
     url: "https://tcdetail.net/",
-    site_name: "TC Detail | Mobile Car Wash and Detailing for residents of Austin Texas",
+    site_name: "TC Washing | Pressure and Soft Washing for residents of Austin Texas",
     images: [
       {
         url: "/banner.jpg",

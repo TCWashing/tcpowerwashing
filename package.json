@@ -13,19 +13,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/iHildy/next-tailwind-template.git"
+    "url": "git+https://github.com/TCWashing/tcpowerwashing.git"
   },
   "keywords": [
     "tailwind",
     "next",
     "template"
   ],
-  "author": "iHildy",
+  "author": "TCWashing",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/iHildy/next-tailwind-template/issues"
+    "url": "https://github.com/TCWashing/next-tailwind-template/issues"
   },
-  "homepage": "https://github.com/iHildy/next-tailwind-template#readme",
+  "homepage": "https://github.com/TCWashing/next-tailwind-template#readme",
   "dependencies": {
     "@headlessui/react": "^1.7.7",
     "@loadable/component": "^5.14.1",
