@@ -1,20 +1,20 @@
 {
-  "title": "TC Detail — Collection composed by 2222 Fragments of the Loop",
-  "titleTemplate": "%s - TC Detail",
+  "title": "TC Washing — Collection composed by 2222 Fragments of the Loop",
+  "titleTemplate": "%s - TC Washing",
   "description": "Checkout our website to view our project!",
   "openGraph": {
-    "title": "TC Detail — Collection composed by 2222 Fragments of the Loop",
+    "title": "TC Washing — Collection composed by 2222 Fragments of the Loop",
     "description": "Checkout our website to view our project!",
     "type": "website",
     "locale": "en_IE",
-    "url": "https://tcdetail.net/",
-    "site_name": "TC Detail — Collection composed by 2222 Fragments of the Loop",
+    "url": "https://tcwashing.net/",
+    "site_name": "TC Washing — Collection composed by 2222 Fragments of the Loop",
     "images": [
       {
         "url": "/banner.png",
         "width": 408,
         "height": 408,
-        "alt": "TC Detail Showcase"
+        "alt": "TC Washing Showcase"
       }
     ]
   },
