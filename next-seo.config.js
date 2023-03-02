@@ -1,5 +1,5 @@
 const SEO = {
-  canonical: "https://tcwasing.net/",
+  canonical: "https://tcwashing.net/",
   title: "TC Washing | Pressure and Soft Washing for residents of Austin Texas",
   titleTemplate: "%s - TC Washing",
   description: "Pressure and Soft Washing service for residents of Austin Texas",
@@ -8,7 +8,7 @@ const SEO = {
     description: "Mobile Car Wash and Detailing for residents of Austin Texas",
     type: "website",
     locale: "en_IE",
-    url: "https://tcdetail.net/",
+    url: "https://tcwashing.net/",
     site_name: "TC Washing | Pressure and Soft Washing for residents of Austin Texas",
     images: [
       {

@@ -1,7 +1,7 @@
 {
-  "name": "TC Detail | Mobile Car Wash and Detailing for residents of Austin Texas",
-  "short_name": "TC Detail",
-  "description": "Mobile Car Wash and Detailing for residents of Austin Texas",
+  "name": "TC Washing | Pressure and Soft washing service for residents of Austin Texas",
+  "short_name": "TC Washing",
+  "description": "Pressure and Soft Washing service for residents of Austin Texas",
   "display": "standalone",
   "start_url": "/",
   "theme_color": "#0E1012",

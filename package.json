@@ -13,19 +13,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TCWashing/tcpowerwashing.git"
+    "url": "git+https://github.com/iHildy/next-tailwind-template.git"
   },
   "keywords": [
     "tailwind",
     "next",
     "template"
   ],
-  "author": "TCWashing",
+  "author": "iHildy",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/TCWashing/next-tailwind-template/issues"
+    "url": "https://github.com/iHildy/next-tailwind-template/issues"
   },
-  "homepage": "https://github.com/TCWashing/next-tailwind-template#readme",
+  "homepage": "https://github.com/iHildy/next-tailwind-template#readme",
   "dependencies": {
     "@headlessui/react": "^1.7.7",
     "@loadable/component": "^5.14.1",
@@ -33,14 +33,14 @@
     "@tailwindcss/typography": "^0.5.0",
     "aos": "2.3.4",
     "autoprefixer": "^10.1.0",
-    "next": "^13.2.3",
+    "next": "^12.0.8",
     "next-compose-plugins": "^2.2.1",
     "next-seo": "^4.17.0",
     "next-themes": "0.0.15",
     "next-videos": "1.5.0",
     "prettier": "^2.5.1",
-    "react": "^18.1.0",
-    "react-dom": "^18.1.0",
+    "react": "17.0.2",
+    "react-dom": "^17.0.1",
     "react-headroom": "^3.1.0",
     "react-helmet": "^6.1.0",
     "react-icons": "^4.4.0",

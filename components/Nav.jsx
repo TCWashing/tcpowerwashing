@@ -3,7 +3,7 @@ import { Fragment } from "react";
 import { Popover, Transition } from "@headlessui/react";
 import { HiMenu, HiX } from "react-icons/hi";
 import Image from "next/image";
-import logo from "../public/logo.png";
+import logo from "../public/logo2.png";
 
 
 export default function Nav() {
@@ -14,7 +14,7 @@ export default function Nav() {
           <div id="home" className="mx-auto max-w-7xl px-4 sm:px-6">
             <div className="flex grid-cols-4 place-content-center items-center justify-between py-6 md:justify-evenly lg:grid">
               <div className="flex items-center justify-start">
-                <Image src={logo} alt="logo" width={75} height={56} />
+                <Image src={logo} alt="logo" width={150} height={100} />
               </div>
               <div className="-my-2 md:hidden">
                 <Popover.Button className="hover:text-primaryDark inline-flex items-center justify-center rounded-md p-2 text-primary focus:outline-none">

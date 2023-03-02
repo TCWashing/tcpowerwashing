@@ -18,7 +18,7 @@ const Hero = () => {
               data-aos="fade-up"
               data-aos-delay="300"
             >
-              TC PRESSURE WASHING
+              TC WASHING
             </h1>
             <h2
               className="mx-auto max-w-lg text-xl tracking-wide text-secondary md:text-2xl lg:mx-0"
