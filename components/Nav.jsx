@@ -29,12 +29,12 @@ export default function Nav() {
                 >
                   Home
                 </a>
-                <a
+                {/* <a
                   href="#pastwork"
                   className="trans underline decoration-transparent decoration-2 underline-offset-8 hover:text-primary hover:decoration-primary"
                 >
                   Past Work
-                </a>
+                </a> */}
                 <a
                   href="#prices"
                   className="trans underline decoration-transparent decoration-2 underline-offset-8 hover:text-primary hover:decoration-primary"
@@ -56,7 +56,7 @@ export default function Nav() {
               </div>
               <div className="hidden items-center justify-end text-base md:flex">
                 <div className="rounded-full border-2 border-btnBorder bg-btnBg px-6 py-2 font-metBold tracking-widest">
-                  tcpressurewashingatx@gmail
+                  questions@tcwashing.net
                 </div>
               </div>
             </div>
@@ -137,7 +137,7 @@ export default function Nav() {
                         className="-m-3 flex items-center rounded-md p-3"
                       >
                         <span className="trans ml-3 font-metBold text-base underline decoration-transparent decoration-2 underline-offset-8 hover:text-primary hover:decoration-primary">
-                          Email Us: tcpressurewashingatx@gmail.com
+                          Email Us: questions@tcdetail.net
                         </span>
                       </a>
                     </nav>

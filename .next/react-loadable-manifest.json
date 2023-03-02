@@ -23,12 +23,6 @@
       "static/chunks/components_offerings_Roof_jsx.js"
     ]
   },
-  "404.jsx -> @/components/Shell": {
-    "id": "404.jsx -> @/components/Shell",
-    "files": [
-      "static/chunks/components_Shell_jsx.js"
-    ]
-  },
   "index.jsx -> @/components/Carousel": {
     "id": "index.jsx -> @/components/Carousel",
     "files": [

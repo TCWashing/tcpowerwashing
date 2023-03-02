@@ -39,28 +39,28 @@ function App() {
             <link rel="icon" href="./favicon.ico" />
             <meta
               name="keywords"
-              content="TC Detail | Mobile Car Wash and Detailing for residents of Austin Texas"
+              content="TC Washing | Pressure and Soft Washing for residents of Austin Texas"
             />
             <title>
-              TC Pressure Washing | Pressure and soft washing service for homeowners
+              TC Washing | Pressure and soft washing service for homeowners
               in Austin Texas
             </title>
             <meta name="theme-color" content="#D6D6D6" />
             <meta
               name="title"
-              content="TC Detail | Mobile Car Wash and Detailing for residents of Austin Texas"
+              content="TC Washing | Pressure and Soft Washing for residents of Austin Texas"
             />
             <meta name="description" content="View the project here!" />
 
             <meta property="og:type" content="website" />
             <meta
               property="og:site_name"
-              content="TC Detail | Mobile Car Wash and Detailing for residents of Austin Texas"
+              content="TC Washing | Pressure and Soft Washing for residents of Austin Texas"
             />
             <meta property="og:url" content="https://tcdetail.net/" />
             <meta
               property="og:title"
-              content="TC Detail | Mobile Car Wash and Detailing for residents of Austin Texas"
+              content="TC Washing | Pressure and Soft Washing for residents of Austin Texas"
             />
             <meta property="og:description" content="View the project here!" />
             {/* Use something like https://og-image.wzulfikar.com/ for this */}
@@ -70,10 +70,10 @@ function App() {
             />
 
             <meta property="twitter:card" content="summary_large_image" />
-            <meta property="twitter:url" content="https://tcdetail.net/" />
+            <meta property="twitter:url" content="https://tcwashing.net/" />
             <meta
               property="twitter:title"
-              content="TC Detail | Mobile Car Wash and Detailing for residents of Austin Texas"
+              content="TC Washing | Pressure and Soft Washing for residents of Austin Texas"
             />
             <meta
               property="twitter:description"
@@ -86,8 +86,8 @@ function App() {
             />
           </Head>
           <NextSeo
-            title="TC Detail | Mobile Car Wash and Detailing for residents of Austin Texas"
-            description="Mobile Car Wash and Detailing for residents of Austin Texas"
+            title="TC Washing | Pressure and Soft Washing for residents of Austin Texas"
+            description="Pressure and Soft Washing for residents of Austin Texas"
           />
           <div className="mb-16 w-full scroll-smooth font-metReg md:mb-24">
             {/* <Breakpoints /> */}
