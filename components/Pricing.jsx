@@ -62,7 +62,7 @@ const Pricing = () => {
                 </li>
               </ol>
             </div>
-            <div>
+            {/* <div>
               <div className="text-center font-metBold text-2xl">
                 Book Now:
               </div>
@@ -76,7 +76,7 @@ const Pricing = () => {
                   Book
                 </a>
               </div>
-            </div>
+            </div> */}
           </div>
 
           <div
@@ -117,7 +117,7 @@ const Pricing = () => {
                 </li>
               </ol>
             </div>
-            <div>
+            {/* <div>
               <div className="text-center font-metBold text-2xl">
                 Book Now:
               </div>
@@ -131,7 +131,7 @@ const Pricing = () => {
                   Book
                 </a>
               </div>
-            </div>
+            </div> */}
           </div>
           
           <div
@@ -170,7 +170,7 @@ const Pricing = () => {
                 </li>
               </ol>
             </div>
-            <div>
+            {/* <div>
               <div className="text-center font-metBold text-2xl">
                 Book Now:
               </div>
@@ -184,7 +184,7 @@ const Pricing = () => {
                   Book
                 </a>
               </div>
-            </div>
+            </div> */}
           </div>
           {/* <div className="mx-2 rounded-2xl bg-aqua md:mx-6 lg:col-span-3">
             <div className="mx-auto py-4 px-4 sm:px-6 lg:px-8">
