@@ -62,11 +62,11 @@ const Pricing = () => {
                 </li>
               </ol>
             </div>
-            {/* <div>
+            <div>
               <div className="text-center font-metBold text-2xl">
                 Book Now:
               </div>
-              <div className="grid gap-1.5 pt-2">
+              {/* <div className="grid gap-1.5 pt-2">
                 <a
                   href="/returning-mobile"
                   target="_blank"
@@ -75,8 +75,19 @@ const Pricing = () => {
                 >
                   Book
                 </a>
+              </div> */}
+                <div className="grid gap-1.5 pt-2">
+                <a
+                  href="mailto:questions@tcwashing.net"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="trans w-full rounded-full border-2 border-plansNameBorder bg-btnBg py-4 px-6 text-center font-metBold text-base uppercase tracking-widest text-white hover:bg-plansNameBorder hover:text-btnBg"
+                >
+                  Email Us!
+                </a>
+                <p className="text-center">questions@tcwashing.net</p>
               </div>
-            </div> */}
+            </div>
           </div>
 
           <div
@@ -117,11 +128,11 @@ const Pricing = () => {
                 </li>
               </ol>
             </div>
-            {/* <div>
+            <div>
               <div className="text-center font-metBold text-2xl">
                 Book Now:
               </div>
-              <div className="grid gap-1.5 pt-2">
+              {/* <div className="grid gap-1.5 pt-2">
                 <a
                   href="/returning-mobile"
                   target="_blank"
@@ -130,8 +141,19 @@ const Pricing = () => {
                 >
                   Book
                 </a>
+              </div> */}
+                <div className="grid gap-1.5 pt-2">
+                <a
+                  href="mailto:questions@tcwashing.net"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="trans w-full rounded-full border-2 border-plansNameBorder bg-btnBg py-4 px-6 text-center font-metBold text-base uppercase tracking-widest text-white hover:bg-plansNameBorder hover:text-btnBg"
+                >
+                  Email Us!
+                </a>
+                <p className="text-center">questions@tcwashing.net</p>
               </div>
-            </div> */}
+            </div>
           </div>
           
           <div
@@ -170,11 +192,11 @@ const Pricing = () => {
                 </li>
               </ol>
             </div>
-            {/* <div>
+            <div>
               <div className="text-center font-metBold text-2xl">
                 Book Now:
               </div>
-              <div className="grid gap-1.5 pt-2">
+              {/* <div className="grid gap-1.5 pt-2">
                 <a
                   href="/returning-mobile"
                   target="_blank"
@@ -183,8 +205,19 @@ const Pricing = () => {
                 >
                   Book
                 </a>
+              </div> */}
+                <div className="grid gap-1.5 pt-2">
+                <a
+                  href="mailto:questions@tcwashing.net"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="trans w-full rounded-full border-2 border-plansNameBorder bg-btnBg py-4 px-6 text-center font-metBold text-base uppercase tracking-widest text-white hover:bg-plansNameBorder hover:text-btnBg"
+                >
+                  Email Us!
+                </a>
+                <p className="text-center">questions@tcwashing.net</p>
               </div>
-            </div> */}
+            </div>
           </div>
           {/* <div className="mx-2 rounded-2xl bg-aqua md:mx-6 lg:col-span-3">
             <div className="mx-auto py-4 px-4 sm:px-6 lg:px-8">
