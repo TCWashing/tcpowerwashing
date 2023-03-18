@@ -90,7 +90,7 @@ const Faq = () => {
                 >
                   <Disclosure.Panel className="rounded-b-2xl bg-transparent pt-5 text-base text-faqTxt md:text-lg">
                     <span>
-                      "You can contact us at tcpressurewashingatx@gmail
+                      "You can contact us at questions@tcwashing.net
                       at any time, or by text at (512) 621-8246."
                     </span>
                   </Disclosure.Panel>
@@ -178,10 +178,8 @@ const Faq = () => {
                 >
                   <Disclosure.Panel className="rounded-b-2xl bg-transparent pt-5 text-base text-faqTxt md:text-lg">
                     <span>
-                      "We use the most environmentally friendly chemicals capable of doing the job. 
-                      None of our chemicals will cause harm to your house, lawn, or plants. We use  
-                      bleach sparingly to kill all the any mold and germs. We care about the environment, 
-                      and opt for eco-friendly chemicals when possible."
+                      "No, we use professional grade chemicals designed for the job. Our chemical mixture contains bleach to break away at any mold and germs.
+                      We take great care in protecting your home, lawn, vegetation, and belongings."
                     </span>
                   </Disclosure.Panel>
                 </Transition>

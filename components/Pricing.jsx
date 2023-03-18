@@ -5,8 +5,14 @@ import { BsFillMegaphoneFill } from "react-icons/bs";
 const Roof = loadable(() => import("@/components/offerings/Roof"));
 const SoftWashHouse = loadable(() => import("@/components/offerings/FullHouseWash"));
 const Driveway = loadable(() => import("@/components/offerings/Driveway"));
+const Windows = loadable(() => import("@/components/offerings/Windows"))
+const ConcreteSealer = loadable(() => import("@/components/offerings/ConcreteSealer"))
+const Patio = loadable(() => import("@/components/offerings/Patio"))
+const Pergola = loadable(() => import("@/components/offerings/Pergola"))
+const Other = loadable(() => import("@/components/offerings/Other"))
 
 const ExtraDirty = loadable(() => import("@/components/addons/ExtraDirty"));
+const Oversize = loadable(() => import("@/components/addons/Oversize"));
 
 const Pricing = () => {
   return (
@@ -24,13 +30,13 @@ const Pricing = () => {
           data-aos-delay="100"
         >
 
-<div
+          <div
             className="flex h-full flex-col space-y-5 bg-transparent py-8 px-2 md:px-6"
             data-aos="fade-up"
             data-aos-delay="300"
           >
             <div className="w-full rounded-full py-4 px-4 text-center font-metBold text-2xl uppercase tracking-widest text-btnBg underline decoration-plansNameBorder decoration-4 underline-offset-8">
-              Avg ({'<2500sqft'})
+              One Story
             </div>
             <div className="flex flex-col space-y-2">
               <div className="font-metMedi text-xl uppercase tracking-widest text-disabledBtnTxt">
@@ -38,10 +44,9 @@ const Pricing = () => {
               </div>
               <div className="flex flex-col items-baseline space-x-2 text-btnBg md:flex-row">
                 <div className="font-metMedi text-3xl">300</div>
-                <p className="text-base">(+100 Second Story)</p>
               </div>
               <p>
-                This is our package for mid size homes and below, it includes a soft wash of your house and driveway/path front-side pressure 
+                This is our standard package for one story homes, it includes a soft wash of your house and driveway/path front-side pressure 
                 washing. See below for more details. Find the price of addons a little further below.
               </p>
               <div className="flex items-center space-x-2 text-lg">
@@ -96,23 +101,22 @@ const Pricing = () => {
             data-aos-delay="300"
           >
             <div className="w-full rounded-full py-4 px-4 text-center font-metBold text-2xl uppercase tracking-widest text-btnBg underline decoration-plansNameBorder decoration-4 underline-offset-8">
-              Big ({'<4000sqft'})
+              Two Story
             </div>
             <div className="flex flex-col space-y-2">
               <div className="font-metMedi text-xl uppercase tracking-widest text-disabledBtnTxt">
                 PRICE*
               </div>
               <div className="flex flex-col items-baseline space-x-2 text-btnBg md:flex-row">
-                <div className="font-metMedi text-3xl">350</div>
-                <p className="text-base">(+125 Second Story)</p>
+                <div className="font-metMedi text-3xl">450</div>
               </div>
               <p>
-                This is our package for larger homes, it includes a soft wash of your house and driveway/path front-side pressure 
+                This is our standard package for two story homes, it includes a soft wash of your house and driveway/path front-side pressure 
                 washing. See below for more details. Find the price of addons a little further below.
               </p>
               <div className="flex items-center space-x-2 text-lg">
                 <AiOutlineFieldTime className="text-plansPrice" size="1.5em" />
-                <p className="pt-1">~3-6 Hours</p>
+                <p className="pt-1">~3-8 Hours</p>
               </div>
             </div>
             <div className="flex-1">
@@ -169,17 +173,17 @@ const Pricing = () => {
                 PRICE*
               </div>
               <div className="flex flex-col items-baseline space-x-2 text-btnBg md:flex-row">
-                <div className="font-metMedi text-3xl">150</div>
+                <div className="font-metMedi text-3xl">125</div>
                 <p className="text-base">(+50 pathway)</p>
-                <p className="text-base">(+50-200 oversize)</p>
+                <p className="text-base">(+50-??? oversize)</p>
               </div>
               <p>
-                This is our standard driveway-only package. If you're driveway is extra big (larger than the standard, 2-4 cars) fees may apply.
-                Upon recieving your address we will check with google maps, and let you know if any extra charges apply before we schedule.
+                This is our standard driveway-only package. Prices for driveway cleaning can vary greatly depending on the size, dirtyness, slope,
+                and condition. Most 2-4 car driveways will remain at the standard price.
               </p>
               <div className="flex items-center space-x-2 text-lg">
                 <AiOutlineFieldTime className="text-plansPrice" size="1.5em" />
-                <p className="pt-1">~4-7 Hours</p>
+                <p className="pt-1">~1-3 Hours</p>
               </div>
             </div>
             <div className="flex-1">
@@ -238,23 +242,54 @@ const Pricing = () => {
               </div>
             </div>
           </div> */}
-          <p className="text-base">*Extra fees may apply</p>
+          
           <div
             className="flex h-full flex-col space-y-5 bg-transparent py-8 px-2 md:px-6 lg:col-span-3"
             data-aos="fade-up"
             data-aos-delay="300"
           >
+            <p className="text-base w-full">*Extra fees may apply, all extra fees will be calculated before the appointment. Learn more below.</p>
             <div className="w-full rounded-full border-plansNameBorder py-4 text-center font-metBold text-2xl uppercase tracking-widest text-btnBg md:border-2 md:px-4">
               available Add-ons
             </div>
             <div className="grid w-full grid-cols-1 gap-3 lg:grid-cols-2 lg:gap-8">
+            <ol className="plansdivstIcon divst-inside space-y-3 text-left font-metMedi text-base">
+                <li className="border-divstIcon border-b-2 pb-3">
+                  <Oversize />
+                </li>
+              </ol>
               <ol className="plansdivstIcon divst-inside space-y-3 text-left font-metMedi text-base">
                 <li className="border-divstIcon border-b-2 pb-3">
                   <Roof />
                 </li>
               </ol>
+              <ol className="plansdivstIcon divst-inside space-y-3 text-left font-metMedi text-base">
+                <li className="border-divstIcon border-b-2 pb-3">
+                  <Windows />
+                </li>
+              </ol>
               <ol className="plansdivstIcon divst-inside space-y-3 font-metMedi text-base">
-                <li className="pb-3">
+              <li className="border-divstIcon border-b-2 pb-3">
+                  <Patio />
+                </li>
+              </ol>
+              <ol className="plansdivstIcon divst-inside space-y-3 font-metMedi text-base">
+                <li className="border-divstIcon border-b-2 pb-3">
+                  <Pergola />
+                </li>
+              </ol>
+              <ol className="plansdivstIcon divst-inside space-y-3 font-metMedi text-base">
+              <li className="border-divstIcon border-b-2 pb-3">
+                  <Other />
+                </li>
+              </ol>
+              <ol className="plansdivstIcon divst-inside space-y-3 text-left font-metMedi text-base">
+                <li className="border-divstIcon border-b-2 pb-3">
+                  <ConcreteSealer />
+                </li>
+              </ol>
+              <ol className="plansdivstIcon divst-inside space-y-3 font-metMedi text-base">
+              <li className="border-divstIcon border-b-2 pb-3">
                   <ExtraDirty />
                 </li>
               </ol>
