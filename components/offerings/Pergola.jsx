@@ -65,7 +65,7 @@ export default function Pergola() {
                     </p>
                     <img
                       className="mt-4 w-full rounded-xl"
-                      src="/img/foamWash.png"
+                      src="/pwpics/pergolaba.jpg"
                       alt="Before and after photo or a photo of us performing said task"
                     />
                   </div>

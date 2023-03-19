@@ -29,12 +29,12 @@ export default function Nav() {
                 >
                   Home
                 </a>
-                {/* <a
+                <a
                   href="#pastwork"
                   className="trans underline decoration-transparent decoration-2 underline-offset-8 hover:text-primary hover:decoration-primary"
                 >
                   Past Work
-                </a> */}
+                </a>
                 <a
                   href="#prices"
                   className="trans underline decoration-transparent decoration-2 underline-offset-8 hover:text-primary hover:decoration-primary"

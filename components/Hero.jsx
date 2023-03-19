@@ -39,7 +39,7 @@ const Hero = () => {
         </div>
         <div data-aos="fade-up" data-aos-delay="300">
           <div className="flex items-center justify-center">
-            <video
+            {/* <video
               src="{IntroVid}"
               alt="Intro video to TC Detail"
               playsInline
@@ -49,16 +49,12 @@ const Hero = () => {
               className="trans mx-auto my-auto overflow-hidden rounded-lg shadow focus:outline-none"
               width="1920"
               height="1080"
-            ></video>
-            {/* <Image
-              src={porsche}
-              draggable="false"
-              width={1922}
-              height={1446}
-              alt="Detailed Truck"
-              className="w-full rounded-xl"
-              priority
-            /> */}
+            ></video> */}
+                    <img
+                      className="mt-4 w-full rounded-xl"
+                      src="/pwpics/editedbfaf.jpg"
+                      alt="Before and after photo or a photo of us performing said task"
+                    />
           </div>
         </div>
       </div>

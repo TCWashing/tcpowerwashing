@@ -44,6 +44,7 @@ const Pricing = () => {
               </div>
               <div className="flex flex-col items-baseline space-x-2 text-btnBg md:flex-row">
                 <div className="font-metMedi text-3xl">300</div>
+                <p className="text-base">(Includes Driveway and Path)</p>
               </div>
               <p>
                 This is our standard package for one story homes, it includes a soft wash of your house and driveway/path front-side pressure 
@@ -109,6 +110,7 @@ const Pricing = () => {
               </div>
               <div className="flex flex-col items-baseline space-x-2 text-btnBg md:flex-row">
                 <div className="font-metMedi text-3xl">450</div>
+                <p className="text-base">(Includes Driveway and Path)</p>
               </div>
               <p>
                 This is our standard package for two story homes, it includes a soft wash of your house and driveway/path front-side pressure 

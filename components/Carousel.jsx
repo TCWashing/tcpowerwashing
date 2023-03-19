@@ -7,21 +7,9 @@ import {
 import Image from "next/image";
 
 const featuredProducts = [
-  "/img/modelx.webp",
-  "/img/side.webp",
-  "/img/porsche_wheel.webp",
-  "/img/drivers_seat.webp",
-  "/img/teslaBack.webp",
-  "/img/passengerdoor.webp",
-  "/img/trunk.webp",
-  "/img/wheel.webp",
-  "/img/tahoeFront.webp",
-  "/img/tahoeBack.webp",
-  "/img/hero-truck.webp",
-  "/img/showcase-2.webp",
-  "/img/crvTrunk.webp",
-  "/img/volvoOutside.webp",
-  "/img/volvoRearEnd.webp",
+  "/pwpics/editedbfaf.jpg",
+  "/pwpics/pergolaba.jpg",
+  "/pwpics/pwbfaf.jpg"
 ];
 
 let count = 0;
@@ -75,7 +63,7 @@ export default function Slider() {
         <div className="aspect-w-16 aspect-h-9">
           <Image
             src={featuredProducts[currentIndex]}
-            alt="Cars Detailed by TC Detail Before and Afters"
+            alt="Photos of our past work"
             width={1803}
             height={1334}
             priority
@@ -108,7 +96,7 @@ export default function Slider() {
         data-aos="fade-up"
         data-aos-delay="500"
       >
-        <a
+        {/* <a
           href="https://nextdoor.com/profile/01RNBHRjWwTgWtjP9/"
           className="trans rounded-full border-2 border-white bg-white py-4 px-6 font-metBold uppercase tracking-widest text-black hover:bg-black hover:text-white"
         >
@@ -119,7 +107,7 @@ export default function Slider() {
           className="trans rounded-full border-2 border-white bg-white py-4 px-6 font-metBold uppercase tracking-widest text-black hover:bg-black hover:text-white"
         >
           View Our Instagram Page
-        </a>
+        </a> */}
       </div>
     </div>
   );

@@ -94,8 +94,8 @@ function App() {
             <DealBanner />
             <Nav />
             <Hero />
-            {/* <PastWork /> */}
-            {/* <Carousel /> */}
+            <PastWork />
+            <Carousel />
             {/* <Testimonials /> */}
             <Pricing />
             <Steps />

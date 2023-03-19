@@ -29,7 +29,7 @@ const Steps = () => {
               <span className="text-plansPrice">-</span> Book Us
             </p>
             <p className="text-lg">
-              Using the Book Now button above you can choose a time, date, and package that works for you.
+              Using the "Email Us" button above or by contacting us at (512) 621-8246 (text only)
             </p>
           </div>
         </div>
