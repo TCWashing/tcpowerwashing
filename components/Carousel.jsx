@@ -7,9 +7,10 @@ import {
 import Image from "next/image";
 
 const featuredProducts = [
-  "/pwpics/editedbfaf.jpg",
-  "/pwpics/pergolaba.jpg",
-  "/pwpics/pwbfaf.jpg"
+  "/pwpics/editedbfaf.webp",
+  "/pwpics/pergolaba.webp",
+  "/pwpics/pwbfaf.webp",
+  "/pwpics/beforeandafterpatio.webp"
 ];
 
 let count = 0;
