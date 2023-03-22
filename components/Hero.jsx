@@ -52,7 +52,7 @@ const Hero = () => {
             ></video> */}
                     <img
                       className="mt-4 w-full rounded-xl"
-                      src="/pwpics/editedbfaf.jpg"
+                      src="/pwpics/editedbfaf.webp"
                       alt="Before and after photo or a photo of us performing said task"
                     />
           </div>

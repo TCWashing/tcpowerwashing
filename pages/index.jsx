@@ -57,7 +57,7 @@ function App() {
               property="og:site_name"
               content="TC Washing | Pressure and Soft Washing for residents of Austin Texas"
             />
-            <meta property="og:url" content="https://tcdetail.net/" />
+            <meta property="og:url" content="https://tcwashing.net/" />
             <meta
               property="og:title"
               content="TC Washing | Pressure and Soft Washing for residents of Austin Texas"
