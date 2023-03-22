@@ -10,7 +10,6 @@ const featuredProducts = [
   "/pwpics/editedbfaf.webp",
   "/pwpics/pergolaba.webp",
   "/pwpics/pwbfaf.webp",
-  "/pwpics/beforeandafterpatio.webp"
 ];
 
 let count = 0;
