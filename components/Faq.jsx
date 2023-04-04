@@ -265,7 +265,7 @@ const Faq = () => {
                   <Disclosure.Panel className="rounded-b-2xl bg-transparent pt-5 text-base text-faqTxt md:text-lg">
                     <span>
                       "Yes! If you have a question about anything that isn't specifically listed above, feel free to
-                      contact us at tcpressurewashingatx@gmail. We can create an estimate for any of your pressure/soft 
+                      contact us at questions@tcwashing.net We can create an estimate for any of your pressure/soft 
                       washing related needs."
                     </span>
                   </Disclosure.Panel>
