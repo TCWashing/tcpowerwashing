@@ -214,12 +214,13 @@ const Pricing = () => {
               </div> */}
                 <div className="grid gap-1.5 pt-2">
                 <a
-                  href="mailto:questions@tcwashing.net"
+                  // href="mailto:questions@tcwashing.net"
+                  href="https://calendly.com/tcwashing/driveway"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="trans w-full rounded-full border-2 border-plansNameBorder bg-btnBg py-4 px-6 text-center font-metBold text-base uppercase tracking-widest text-white hover:bg-plansNameBorder hover:text-btnBg"
                 >
-                  Email Us!
+                  Book Us!
                 </a>
                 <p className="text-center">questions@tcwashing.net</p>
               </div>
