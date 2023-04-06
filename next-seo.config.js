@@ -5,7 +5,7 @@ const SEO = {
   description: "Pressure and Soft Washing service for residents of Austin Texas",
   openGraph: {
     title: "TC Washing | Pressure and Soft Washing for residents of Austin Texas",
-    description: "Mobile Car Wash and Detailing for residents of Austin Texas",
+    description: "Driveways, houses, patios, pergulas, etc.",
     type: "website",
     locale: "en_IE",
     url: "https://tcwashing.net/",
