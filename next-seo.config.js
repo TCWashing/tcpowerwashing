@@ -13,8 +13,8 @@ const SEO = {
     images: [
       {
         url: "/banner.jpg",
-        width: 1500,
-        height: 500,
+        width: 1200,
+        height: 628,
         alt: "before and after photo",
       },
     ],
