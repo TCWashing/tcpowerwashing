@@ -12,7 +12,7 @@ const SEO = {
     site_name: "TC Washing | Pressure and Soft Washing for residents of Austin Texas",
     images: [
       {
-        url: "/pwpics/editedbfaf.webp",
+        url: "/banner.jpg",
         width: 1500,
         height: 500,
         alt: "before and after photo",
