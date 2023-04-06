@@ -321,7 +321,7 @@ const Faq = () => {
       </div>
       <div className="mx-auto mt-7 text-center">
         <a
-          href="https://www.tcdetail.net/privacy.html"
+          href="https://www.tcwashing.net/privacy.html"
           target="_blank"
           rel="noopener noreferrer"
         >

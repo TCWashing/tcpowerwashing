@@ -51,12 +51,12 @@ const Pricing = () => {
                 PRICE*
               </div>
               <div className="flex flex-col items-baseline space-x-2 text-btnBg md:flex-row">
-                <div className="font-metMedi text-3xl">$607</div>
+                <div className="font-metMedi text-3xl">607</div>
                 <p className="text-base">(Includes Extras Listed Below)</p>
               </div>
               <p>
-                This is our Premium package, we recommend the premium package if you plan on adding a lot of options, such as windows, concrete resealer,
-                and others listed below. The premium package includes these options at a discount by getting them all done at once.
+                This is our Premium package, it includes everything in the standard package plus add-ons at a discount. We recommend this package to anyone
+                who plans to select a lot of add-ons.
               </p>
               <div className="flex items-center space-x-2 text-lg">
                 <AiOutlineFieldTime className="text-plansPrice" size="1.5em" />
@@ -80,15 +80,9 @@ const Pricing = () => {
                 <li className="border-divstIcon border-b-2 pb-3">
                   <SpecialOther />
                 </li>
-                <li className="border-divstIcon border-b-2 pb-3">
-                  <Sweep />
-                </li>
-                <li className="border-divstIcon border-b-2 pb-3">
-                  <CleaningSolution />
-                </li>
-                <li className="border-divstIcon border-b-2 pb-3">
+                {/* <li className="border-divstIcon border-b-2 pb-3">
                 A careful and professional job with quick and honest customer service.
-                </li>
+                </li> */}
               </ol>
             </div>
             <div>
@@ -137,8 +131,7 @@ const Pricing = () => {
               </div>
               <p>
                 This is our standard package, it includes a soft wash of your house and driveway/path front-side pressure 
-                washing. See below for more details. Find the price of addons a little further below. We recommend this package for clients
-                who won't be adding a lot of extras.
+                washing. We recommend this package for clients who won't be adding a lot of Add-Ons.
               </p>
               <div className="flex items-center space-x-2 text-lg">
                 <AiOutlineFieldTime className="text-plansPrice" size="1.5em" />
@@ -212,8 +205,8 @@ const Pricing = () => {
                 <p className="text-base">(includes pathway)</p>
               </div>
               <p>
-                This is our standard driveway-only package. Prices for driveway cleaning can vary greatly depending on the size, dirtyness, slope,
-                and condition. Most 2-4 car driveways will remain at the standard price.
+                This is our driveway-only package. It includes the cleaning of both your driveway, and connecting path. We recommend this package
+                if your house has been cleaned recently but you are dissatisfied with your driveway.
               </p>
               <div className="flex items-center space-x-2 text-lg">
                 <AiOutlineFieldTime className="text-plansPrice" size="1.5em" />

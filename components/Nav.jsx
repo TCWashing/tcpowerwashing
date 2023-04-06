@@ -133,11 +133,11 @@ export default function Nav() {
                         </span>
                       </a>
                       <a
-                        href="mailto:questions@tcdetail.net"
+                        href="mailto:questions@tcwashing.net"
                         className="-m-3 flex items-center rounded-md p-3"
                       >
                         <span className="trans ml-3 font-metBold text-base underline decoration-transparent decoration-2 underline-offset-8 hover:text-primary hover:decoration-primary">
-                          Email Us: questions@tcdetail.net
+                          Email Us: questions@tcwashing.net
                         </span>
                       </a>
                     </nav>

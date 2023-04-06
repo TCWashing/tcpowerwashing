@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://tcdetail.net/sitemap.xml
+Sitemap: https://tcwashing.net/sitemap.xml

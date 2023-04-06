@@ -5,17 +5,17 @@
   "redirects": [
     {
       "source": "/complete-mobile",
-      "destination": "https://calendly.com/tcdetail/complete-mobile",
+      "destination": "https://calendly.com/tcwashing/complete-mobile",
       "permanent": true
     },
     {
       "source": "/starter-mobile",
-      "destination": "https://calendly.com/tcdetail/starter-mobile",
+      "destination": "https://calendly.com/tcwashing/starter-mobile",
       "permanent": true
     },
     {
       "source": "/returning-mobile",
-      "destination": "https://calendly.com/tcdetail/returning-mobile",
+      "destination": "https://calendly.com/tcwashing/returning-mobile",
       "permanent": true
     },
     {

@@ -20,7 +20,7 @@ export default function SecondStory() {
         onClick={openModal}
         className="w-full text-left focus:outline-none"
       >
-        Second Story Free
+        Second Story - <span className="font-metSemiBold">Free</span>
         <AiOutlineInfoCircle
           className="ml-2 inline-block text-plansPrice"
           size="1.2em"

@@ -20,7 +20,7 @@ export default function OversizeDriveway() {
         onClick={openModal}
         className="w-full text-left focus:outline-none"
       >
-        OversizeDriveway -{" "}
+        Oversize Driveway -{" "}
         <span className="font-metSemiBold">{'50-???'}</span>
         <AiOutlineInfoCircle
           className="ml-2 inline-block text-plansPrice"

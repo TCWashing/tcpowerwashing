@@ -20,7 +20,7 @@ export default function Pathway() {
         onClick={openModal}
         className="w-full text-left focus:outline-none"
       >
-        Pathway pressure wash/cleaning
+        Pathway Pressure Wash/Cleaning
         <AiOutlineInfoCircle
           className="ml-2 inline-block text-plansPrice"
           size="1.2em"

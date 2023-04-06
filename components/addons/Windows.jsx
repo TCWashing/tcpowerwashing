@@ -20,7 +20,7 @@ export default function Windows() {
         onClick={openModal}
         className="w-full text-left focus:outline-none"
       >
-        Windows
+        Window Cleaning
         <AiOutlineInfoCircle
           className="ml-2 inline-block text-plansPrice"
           size="1.2em"

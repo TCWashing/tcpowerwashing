@@ -20,7 +20,7 @@ export default function SpecialOther() {
         onClick={openModal}
         className="w-full text-left focus:outline-none"
       >
-        Other - <span className="font-metSemiBold">1/2 off</span>
+        Addons - <span className="font-metSemiBold">50% Off</span>
         <AiOutlineInfoCircle
           className="ml-2 inline-block text-plansPrice"
           size="1.2em"
@@ -57,11 +57,11 @@ export default function SpecialOther() {
                     as="h3"
                     className="leading-wide text-xl font-bold tracking-wide text-gray-900"
                   >
-                    Other
+                    Half Price Addons
                   </Dialog.Title>
                   <div className="mt-2">
                     <p className="text-base text-gray-500">
-                      This includes the cleaning of a special request at half off what we would normally charge.
+                      All addons below are half price with the premium package.
                     </p>
                     <img
                       className="mt-4 w-full rounded-xl"
