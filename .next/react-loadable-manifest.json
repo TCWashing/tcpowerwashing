@@ -1,4 +1,22 @@
 {
+  "../components/Pricing.jsx -> @/components/addons/CleaningSolution": {
+    "id": "../components/Pricing.jsx -> @/components/addons/CleaningSolution",
+    "files": [
+      "static/chunks/components_addons_CleaningSolution_jsx.js"
+    ]
+  },
+  "../components/Pricing.jsx -> @/components/addons/ConcreteSealer": {
+    "id": "../components/Pricing.jsx -> @/components/addons/ConcreteSealer",
+    "files": [
+      "static/chunks/components_addons_ConcreteSealer_jsx.js"
+    ]
+  },
+  "../components/Pricing.jsx -> @/components/addons/EverythingStandard": {
+    "id": "../components/Pricing.jsx -> @/components/addons/EverythingStandard",
+    "files": [
+      "static/chunks/components_addons_EverythingStandard_jsx.js"
+    ]
+  },
   "../components/Pricing.jsx -> @/components/addons/ExtraDirty": {
     "id": "../components/Pricing.jsx -> @/components/addons/ExtraDirty",
     "files": [
@@ -9,6 +27,24 @@
     "id": "../components/Pricing.jsx -> @/components/addons/Oversize",
     "files": [
       "static/chunks/components_addons_Oversize_jsx.js"
+    ]
+  },
+  "../components/Pricing.jsx -> @/components/addons/SecondStory": {
+    "id": "../components/Pricing.jsx -> @/components/addons/SecondStory",
+    "files": [
+      "static/chunks/components_addons_SecondStory_jsx.js"
+    ]
+  },
+  "../components/Pricing.jsx -> @/components/addons/Sweep": {
+    "id": "../components/Pricing.jsx -> @/components/addons/Sweep",
+    "files": [
+      "static/chunks/components_addons_Sweep_jsx.js"
+    ]
+  },
+  "../components/Pricing.jsx -> @/components/addons/Windows": {
+    "id": "../components/Pricing.jsx -> @/components/addons/Windows",
+    "files": [
+      "static/chunks/components_addons_Windows_jsx.js"
     ]
   },
   "../components/Pricing.jsx -> @/components/offerings/ConcreteSealer": {
@@ -35,6 +71,12 @@
       "static/chunks/components_offerings_Other_jsx.js"
     ]
   },
+  "../components/Pricing.jsx -> @/components/offerings/Pathway": {
+    "id": "../components/Pricing.jsx -> @/components/offerings/Pathway",
+    "files": [
+      "static/chunks/components_offerings_Pathway_jsx.js"
+    ]
+  },
   "../components/Pricing.jsx -> @/components/offerings/Patio": {
     "id": "../components/Pricing.jsx -> @/components/offerings/Patio",
     "files": [
@@ -51,6 +93,12 @@
     "id": "../components/Pricing.jsx -> @/components/offerings/Roof",
     "files": [
       "static/chunks/components_offerings_Roof_jsx.js"
+    ]
+  },
+  "../components/Pricing.jsx -> @/components/offerings/SpecialOther": {
+    "id": "../components/Pricing.jsx -> @/components/offerings/SpecialOther",
+    "files": [
+      "static/chunks/components_offerings_SpecialOther_jsx.js"
     ]
   },
   "../components/Pricing.jsx -> @/components/offerings/Windows": {
