@@ -52,7 +52,7 @@ const Pricing = () => {
               </p>
               <div className="flex items-center space-x-2 text-lg">
                 <AiOutlineFieldTime className="text-plansPrice" size="1.5em" />
-                <p className="pt-1">~3-6 Hours</p>
+                <p className="pt-1">~3 Hours</p>
               </div>
             </div>
             <div className="flex-1">
@@ -118,7 +118,7 @@ const Pricing = () => {
               </p>
               <div className="flex items-center space-x-2 text-lg">
                 <AiOutlineFieldTime className="text-plansPrice" size="1.5em" />
-                <p className="pt-1">~3-8 Hours</p>
+                <p className="pt-1">~4 Hours</p>
               </div>
             </div>
             <div className="flex-1">
@@ -177,7 +177,6 @@ const Pricing = () => {
               <div className="flex flex-col items-baseline space-x-2 text-btnBg md:flex-row">
                 <div className="font-metMedi text-3xl">125</div>
                 <p className="text-base">(+50 pathway)</p>
-                <p className="text-base">(+50-??? oversize)</p>
               </div>
               <p>
                 This is our standard driveway-only package. Prices for driveway cleaning can vary greatly depending on the size, dirtyness, slope,
@@ -185,7 +184,7 @@ const Pricing = () => {
               </p>
               <div className="flex items-center space-x-2 text-lg">
                 <AiOutlineFieldTime className="text-plansPrice" size="1.5em" />
-                <p className="pt-1">~1-3 Hours</p>
+                <p className="pt-1">~1.5 Hours</p>
               </div>
             </div>
             <div className="flex-1">

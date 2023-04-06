@@ -66,7 +66,7 @@ function App() {
             {/* Use something like https://og-image.wzulfikar.com/ for this */}
             <meta
               property="og:image"
-              content="https://tcdetail.net/banner.jpg"
+              content="https://tcwashing.net/banner.jpg"
             />
 
             <meta property="twitter:card" content="summary_large_image" />
@@ -82,7 +82,7 @@ function App() {
             {/* Use something like https://og-image.wzulfikar.com/ for this */}
             <meta
               property="twitter:image"
-              content="https://tcdetail.net/img/banner.jpg"
+              content="https://tcwashing.net/img/banner.jpg"
             />
           </Head>
           <NextSeo
