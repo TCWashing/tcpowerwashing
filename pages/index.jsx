@@ -91,7 +91,7 @@ function App() {
           />
           <div className="mb-16 w-full scroll-smooth font-metReg md:mb-24">
             {/* <Breakpoints /> */}
-            {/* <DealBanner /> */}
+            <DealBanner />
             <Nav />
             <Hero />
             <PastWork />
