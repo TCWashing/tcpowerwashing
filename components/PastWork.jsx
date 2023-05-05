@@ -17,7 +17,7 @@ const PastWork = () => {
             data-aos="fade-up"
             data-aos-delay="300"
           >
-            Before and After photos of our past cleanings.
+            Photos from our past cleanings.
           </p>
         </div>
       </div>
