@@ -7,12 +7,15 @@ import {
 import Image from "next/image";
 
 const featuredProducts = [
-  "/pwpics/editedbfaf.webp",
-  "/pwpics/pergolaba.webp",
-  "/pwpics/pwbfaf.webp",
-  "/pwpics/stonewalkway.webp",
+  "/pwpics/b4after3.webp",
   "/pwpics/back_wall_new.webp",
   "/pwpics/patio_new.webp",
+  "/pwpics/b4after1.webp",
+  "/pwpics/b4after2.webp",
+  "/pwpics/b4after4.webp",
+  "/pwpics/b4after5.webp",
+  "/pwpics/pergolaba.webp",
+  "/pwpics/stonewalkway.webp",
 ];
 
 let count = 0;
