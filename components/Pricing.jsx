@@ -288,6 +288,15 @@ const Pricing = () => {
             <p className="text-base w-full">*Extra fees may apply, all extra fees will be calculated before the appointment. Learn more below.</p>
             <div className="w-full rounded-full border-plansNameBorder py-4 text-center font-metBold text-2xl uppercase tracking-widest text-btnBg md:border-2 md:px-4">
               available Add-ons
+              <p className="text-xl pt-3">Only Want Add Ons?            <a
+                  // href="mailto:questions@tcwashing.net"
+                  href="https://calendly.com/tcwashing/addons"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="trans w-full rounded-full border-2 border-plansNameBorder bg-btnBg py-4 px-6 text-center font-metBold text-base uppercase tracking-widest text-white hover:bg-plansNameBorder hover:text-btnBg"
+                >
+                  Click Here!
+                </a></p>
             </div>
             <div className="grid w-full grid-cols-1 gap-3 lg:grid-cols-2 lg:gap-8">
             <ol className="plansdivstIcon divst-inside space-y-3 text-left font-metMedi text-base">
