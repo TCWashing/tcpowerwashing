@@ -20,7 +20,7 @@ export default function EverythingStandard() {
         onClick={openModal}
         className="w-full text-left focus:outline-none"
       >
-        Everything in "Standard"
+        Everything in "House" and "Driveway" only
         <AiOutlineInfoCircle
           className="ml-2 inline-block text-plansPrice"
           size="1.2em"
@@ -61,7 +61,7 @@ export default function EverythingStandard() {
                   </Dialog.Title>
                   <div className="mt-2">
                     <p className="text-base text-gray-500">
-                      Includes everything in the standard package.
+                      Includes everything in our house only and driveway only cleaning packages
                     </p>
                     {/* <img
                       className="mt-4 w-full rounded-xl"

@@ -102,13 +102,13 @@ export default function Slider() {
         data-aos="fade-up"
         data-aos-delay="500"
       >
-        {/* <a
-          href="https://nextdoor.com/profile/01RNBHRjWwTgWtjP9/"
+        <a
+          href="https://nextdoor.com/pages/tcwashing-austin-tx/?init_source=search&query=TCwashing"
           className="trans rounded-full border-2 border-white bg-white py-4 px-6 font-metBold uppercase tracking-widest text-black hover:bg-black hover:text-white"
         >
           View Our Nextoor Page
         </a>
-        <a
+        {/* <a
           href="https://nextdoor.com/profile/01RNBHRjWwTgWtjP9/"
           className="trans rounded-full border-2 border-white bg-white py-4 px-6 font-metBold uppercase tracking-widest text-black hover:bg-black hover:text-white"
         >

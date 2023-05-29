@@ -101,7 +101,7 @@ const Pricing = () => {
               </div> */}
                 <div className="grid gap-1.5 pt-2">
                 <a
-                  href="https://calendly.com/tcwashing/premium"
+                  href="https://calendly.com/tcwashing/complete?month=2023-05"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="trans w-full rounded-full border-2 border-plansNameBorder bg-btnBg py-4 px-6 text-center font-metBold text-base uppercase tracking-widest text-white hover:bg-plansNameBorder hover:text-btnBg"
@@ -119,19 +119,18 @@ const Pricing = () => {
             data-aos-delay="300"
           >
             <div className="w-full rounded-full py-4 px-4 text-center font-metBold text-2xl uppercase tracking-widest text-btnBg underline decoration-plansNameBorder decoration-4 underline-offset-8">
-              Standard
+              House Only
             </div>
             <div className="flex flex-col space-y-2">
               <div className="font-metMedi text-xl uppercase tracking-widest text-disabledBtnTxt">
                 PRICE*
               </div>
               <div className="flex flex-col items-baseline space-x-2 text-btnBg md:flex-row">
-                <div className="font-metMedi text-3xl">397</div>
+                <div className="font-metMedi text-3xl">308</div>
                 <p className="text-base">(+50 second story)</p>
               </div>
               <p>
-                This is our standard package, it includes a soft wash of your house and driveway/path front-side pressure 
-                washing. We recommend this package for clients who won't be adding a lot of Add-Ons.
+                This is our standard package, it includes a soft wash of your house. We recommend this package for clients who don't need their driveway or pathway cleaned.
               </p>
               <div className="flex items-center space-x-2 text-lg">
                 <AiOutlineFieldTime className="text-plansPrice" size="1.5em" />
@@ -142,12 +141,6 @@ const Pricing = () => {
               <ol className="plansdivstIcon divst-inside space-y-3 text-left font-metMedi text-base">
                 <li className="border-divstIcon border-b-2 pb-3">
                   <SoftWashHouse />
-                </li>
-                <li className="border-divstIcon border-b-2 pb-3">
-                  <Driveway />
-                </li>
-                <li className="border-divstIcon border-b-2 pb-3">
-                  <Pathway />
                 </li>
                 <li className="border-divstIcon border-b-2 pb-3">
                   <Sweep />
@@ -176,7 +169,7 @@ const Pricing = () => {
               </div> */}
                 <div className="grid gap-1.5 pt-2">
                 <a
-                  href="https://calendly.com/tcwashing/house" //mailto:questions@tcwashing.net
+                  href="https://calendly.com/tcwashing/house?month=2023-05" //mailto:questions@tcwashing.net
                   target="_blank"
                   rel="noopener noreferrer"
                   className="trans w-full rounded-full border-2 border-plansNameBorder bg-btnBg py-4 px-6 text-center font-metBold text-base uppercase tracking-widest text-white hover:bg-plansNameBorder hover:text-btnBg"
@@ -249,7 +242,7 @@ const Pricing = () => {
                 <div className="grid gap-1.5 pt-2">
                 <a
                   // href="mailto:questions@tcwashing.net"
-                  href="https://calendly.com/tcwashing/driveway"
+                  href="https://calendly.com/tcwashing/driveway?month=2023-05"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="trans w-full rounded-full border-2 border-plansNameBorder bg-btnBg py-4 px-6 text-center font-metBold text-base uppercase tracking-widest text-white hover:bg-plansNameBorder hover:text-btnBg"
@@ -290,7 +283,7 @@ const Pricing = () => {
               available Add-ons
               <p className="text-xl pt-3">Only Want Add Ons?            <a
                   // href="mailto:questions@tcwashing.net"
-                  href="https://calendly.com/tcwashing/addons"
+                  href="https://calendly.com/tcwashing/extras?month=2023-05"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="trans w-full rounded-full border-2 border-plansNameBorder bg-btnBg py-4 px-6 text-center font-metBold text-base uppercase tracking-widest text-white hover:bg-plansNameBorder hover:text-btnBg"
