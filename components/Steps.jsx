@@ -29,7 +29,7 @@ const Steps = () => {
               <span className="text-plansPrice">-</span> Book Us
             </p>
             <p className="text-lg">
-              Using the "Email Us" button above or by contacting us at (512) 621-8246 (text only)
+              Using the "Book Us!" button above or by emailing us at questions@tcwashing.net
             </p>
           </div>
         </div>

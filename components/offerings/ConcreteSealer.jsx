@@ -20,7 +20,7 @@ export default function ConcreteSealer() {
         onClick={openModal}
         className="w-full text-left focus:outline-none"
       >
-        Concrete Sealer - <span className="font-metSemiBold">50</span>
+        Concrete Sealer
         <AiOutlineInfoCircle
           className="ml-2 inline-block text-plansPrice"
           size="1.2em"
@@ -64,11 +64,11 @@ export default function ConcreteSealer() {
                       Includes use of concrete sealer for driveway/path. This is required if concrete being cleaned is badly cracked, as there is
                       risk of damaging the concrete further without application.
                     </p>
-                    <img
+                    {/* <img
                       className="mt-4 w-full rounded-xl"
                       src="/img/foamWash.png"
                       alt="Before and after photo or a photo of us performing said task"
-                    />
+                    /> */}
                   </div>
 
                   <div className="mt-4">

@@ -20,7 +20,7 @@ export default function Pergola() {
         onClick={openModal}
         className="w-full text-left focus:outline-none"
       >
-        Pergola - <span className="font-metSemiBold">100-200</span>
+        Pergola
         <AiOutlineInfoCircle
           className="ml-2 inline-block text-plansPrice"
           size="1.2em"

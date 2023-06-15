@@ -20,7 +20,7 @@ export default function Patio() {
         onClick={openModal}
         className="w-full text-left focus:outline-none"
       >
-        Patio - <span className="font-metSemiBold">100-200</span>
+        Patio
         <AiOutlineInfoCircle
           className="ml-2 inline-block text-plansPrice"
           size="1.2em"
@@ -65,7 +65,7 @@ export default function Patio() {
                     </p>
                     <img
                       className="mt-4 w-full rounded-xl"
-                      src="/pwpics/"
+                      src="/pwpics/b4after4.webp"
                       alt="Before and after photo or a photo of us performing said task"
                     />
                   </div>

@@ -17,7 +17,7 @@ const DealBanner = () => {
                 <span className="font-metBold">"MAY23"</span> For $20 Off
               </span>
               <span className="hidden md:inline">
-                <span className="font-metBold">$20</span> Off Your Detail When
+                <span className="font-metBold">$20</span> Off When
                 You Use Code <span className="font-metBold">"MAY23"</span>
               </span>
             </p>

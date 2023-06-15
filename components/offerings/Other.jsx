@@ -20,7 +20,7 @@ export default function Other() {
         onClick={openModal}
         className="w-full text-left focus:outline-none"
       >
-        Other - <span className="font-metSemiBold">Calculated at appointment</span>
+        Other
         <AiOutlineInfoCircle
           className="ml-2 inline-block text-plansPrice"
           size="1.2em"
@@ -63,11 +63,11 @@ export default function Other() {
                     <p className="text-base text-gray-500">
                       Contact us about anything else you may need/want washed.
                     </p>
-                    <img
+                    {/* <img
                       className="mt-4 w-full rounded-xl"
                       src="/img/foamWash.png"
                       alt="Before and after photo or a photo of us performing said task"
-                    />
+                    /> */}
                   </div>
 
                   <div className="mt-4">

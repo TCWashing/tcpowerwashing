@@ -2,6 +2,7 @@ import React from "react";
 import loadable from "@loadable/component";
 import { AiOutlineFieldTime } from "react-icons/ai";
 import { BsFillMegaphoneFill } from "react-icons/bs";
+import Multiplier from '../components/apps/Multiplier';
 const Roof = loadable(() => import("@/components/offerings/Roof"));
 const SoftWashHouse = loadable(() => import("@/components/offerings/FullHouseWash"));
 const Driveway = loadable(() => import("@/components/offerings/Driveway"));
@@ -15,12 +16,13 @@ const SpecialOther = loadable(() => import("@/components/offerings/SpecialOther"
 
 const ExtraDirty = loadable(() => import("@/components/addons/ExtraDirty"));
 const Oversize = loadable(() => import("@/components/addons/Oversize"));
+const Fences = loadable(() => import("@/components/addons/Fences"));
 const SecondStory = loadable(() => import("@/components/addons/SecondStory"));
-const ConcreteSealerAddon = loadable(() => import("@/components/addons/ConcreteSealer"));
 const WindowsAddon = loadable(() => import("@/components/addons/Windows"));
 const EverythingStandard = loadable(() => import("@/components/addons/EverythingStandard"));
 const Sweep = loadable(() => import("@/components/addons/Sweep"));
 const CleaningSolution = loadable(() => import("@/components/addons/CleaningSolution"));
+
 
 const Pricing = () => {
   return (
@@ -32,73 +34,156 @@ const Pricing = () => {
           </h4>
         </div>
         <div
-          className="mt-10 grid grid-cols-1 gap-0 rounded-2xl bg-white p-5 text-black lg:grid-cols-3 lg:gap-5"
+          className="mt-10  gap-0 rounded-2xl bg-white p-5 text-black"
           data-aos="fade-up"
           data-aos-duration="1000"
           data-aos-delay="100"
         >
-
+        <div className="grid grid-cols-1 md:grid-cols-2">
+          <div>
+            <Multiplier />
+            <div className="w-full">
+              <div className="text-center font-metBold text-2xl">
+                Book Now:
+                <p className="text-center font-metBold text-lg uppercase md:hidden">we price match!*</p>
+              </div>
+                <div className="flex justify-center py-3 grid gap-1.5 pt-2">
+                <a
+                  href="https://calendly.com/tcwashing/tcwashing-power-washing-service"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-50 rounded-full border-2 border-plansNameBorder bg-btnBg py-4 px-6 text-center font-metBold text-base uppercase tracking-widest text-white hover:bg-plansNameBorder hover:text-btnBg"
+                >
+                  Book Us!
+                </a>
+                <p className="text-center">questions@tcwashing.net</p>
+              </div>
+            </div>
+          </div>
+          <div className="hidden md:block">
           <div
+            className="flex h-full flex-col space-y-5 bg-transparent py-8 px-2 md:px-6 lg:col-span-3"
+            data-aos="fade-up"
+            data-aos-delay="300"
+          >
+            {/* <p className="text-base w-full">*Extra fees may apply, all extra fees will be calculated before the appointment. Learn more below.</p> */}
+            <div className="w-full rounded-full border-plansNameBorder py-4 text-center font-metBold text-2xl uppercase tracking-widest text-btnBg md:border-2 md:px-4">
+              available Add-ons
+              {/* <p className="text-xl">Only Want Add Ons?</p>
+                <a
+                  // href="mailto:questions@tcwashing.net"
+                  href="https://calendly.com/tcwashing/extras?month=2023-05"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="trans w-full rounded-full border-2 border-plansNameBorder bg-btnBg py-4 px-6 text-center font-metBold text-base uppercase tracking-widest text-white hover:bg-plansNameBorder hover:text-btnBg"
+                >
+                  Click Here!
+                </a> */}
+            </div>
+            <div className="grid w-full grid-cols-1 gap-3">
+            <ol className="plansdivstIcon divst-inside space-y-3 font-metMedi text-base">
+                <li className="border-divstIcon border-b-2 pb-3">
+                  <Fences />
+                </li>
+              </ol>
+            <ol className="plansdivstIcon divst-inside space-y-3 text-left font-metMedi text-base">
+                <li className="border-divstIcon border-b-2 pb-3">
+                  <Windows />
+                </li>
+              </ol>
+              {/* <ol className="plansdivstIcon divst-inside space-y-3 text-left font-metMedi text-base">
+                <li className="border-divstIcon border-b-2 pb-3">
+                  <Roof />
+                </li>
+              </ol> */}
+              <ol className="plansdivstIcon divst-inside space-y-3 font-metMedi text-base">
+              <li className="border-divstIcon border-b-2 pb-3">
+                  <Patio />
+                </li>
+              </ol>
+              <ol className="plansdivstIcon divst-inside space-y-3 font-metMedi text-base">
+                <li className="border-divstIcon border-b-2 pb-3">
+                  <Pergola />
+                </li>
+              </ol>
+              <ol className="plansdivstIcon divst-inside space-y-3 text-left font-metMedi text-base">
+                <li className="border-divstIcon border-b-2 pb-3">
+                  <ConcreteSealer />
+                </li>
+              </ol>
+              <ol className="plansdivstIcon divst-inside space-y-3 font-metMedi text-base">
+              <li className="border-divstIcon border-b-2 pb-3">
+                  <Other />
+                </li>
+              </ol>
+              {/* <ol className="plansdivstIcon divst-inside space-y-3 font-metMedi text-base">
+              <li className="border-divstIcon border-b-2 pb-3">
+                  <ExtraDirty />
+                </li>
+              </ol> */}
+            </div>
+            <div className="w-full rounded-full border-plansNameBorder py-4 text-center font-metBold text-2xl uppercase tracking-widest text-btnBg md:border-2 md:px-4">
+              We Price Match!
+            </div>
+            <ol className="plansdivstIcon divst-inside space-y-3 text-left font-metMedi text-base px-10 text-center">
+              We're so confident in our work and our prices that if anyone offers you a better deal, we'll match it or better. Just contact us
+              at questions@tcwashing.net and we'll get back to you as soon as possible.*
+            </ol>
+          </div>
+          </div>
+        </div>
+          
+          {/* <div
             className="flex h-full flex-col space-y-5 bg-transparent py-8 px-2 md:px-6"
             data-aos="fade-up"
             data-aos-delay="300"
           >
             <div className="w-full rounded-full py-4 px-4 text-center font-metBold text-2xl uppercase tracking-widest text-btnBg underline decoration-plansNameBorder decoration-4 underline-offset-8">
-              Premium
+              Standard
             </div>
             <div className="flex flex-col space-y-2">
               <div className="font-metMedi text-xl uppercase tracking-widest text-disabledBtnTxt">
                 PRICE*
               </div>
               <div className="flex flex-col items-baseline space-x-2 text-btnBg md:flex-row">
-                <div className="font-metMedi text-3xl">607</div>
-                <p className="text-base">(Includes Extras Listed Below)</p>
+                <div className="font-metMedi text-3xl">$0.17
+                /sqft</div>
+                <p className="text-base">(Save money by getting more cleaned! $0.17 per sqft for all surfaces!)</p>
               </div>
               <p>
-                This is our Premium package, it includes everything in the standard package plus add-ons at a discount. We recommend this package to anyone
-                who plans to select a lot of add-ons.
+                This is our Standard package, it includes both house and driveway/path cleaning. We recommend this package to most customers.
               </p>
               <div className="flex items-center space-x-2 text-lg">
                 <AiOutlineFieldTime className="text-plansPrice" size="1.5em" />
-                <p className="pt-1">~5 Hours</p>
+                <p className="pt-1">~3 Hours</p>
               </div>
             </div>
             <div className="flex-1">
               <ol className="plansdivstIcon divst-inside space-y-3 text-left font-metMedi text-base">
               <li className="border-divstIcon border-b-2 pb-3">
-                  <EverythingStandard />
+                  <Driveway />
                 </li>
                 <li className="border-divstIcon border-b-2 pb-3">
-                  <WindowsAddon />
+                  <SoftWashHouse />
                 </li>
                 <li className="border-divstIcon border-b-2 pb-3">
-                  <ConcreteSealerAddon />
+                  <Pathway />
                 </li>
                 <li className="border-divstIcon border-b-2 pb-3">
-                  <SecondStory />
+                  <Sweep />
                 </li>
                 <li className="border-divstIcon border-b-2 pb-3">
-                  <SpecialOther />
+                  <CleaningSolution />
                 </li>
-                {/* <li className="border-divstIcon border-b-2 pb-3">
+                <li className="border-divstIcon border-b-2 pb-3">
                 A careful and professional job with quick and honest customer service.
-                </li> */}
+                </li>
               </ol>
             </div>
             <div>
               <div className="text-center font-metBold text-2xl">
                 Book Now:
               </div>
-              {/* <div className="grid gap-1.5 pt-2">
-                <a
-                  href="/returning-mobile"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="trans w-full rounded-full border-2 border-plansNameBorder bg-btnBg py-4 px-6 text-center font-metBold text-base uppercase tracking-widest text-white hover:bg-plansNameBorder hover:text-btnBg"
-                >
-                  Book
-                </a>
-              </div> */}
                 <div className="grid gap-1.5 pt-2">
                 <a
                   href="https://calendly.com/tcwashing/complete?month=2023-05"
@@ -111,9 +196,9 @@ const Pricing = () => {
                 <p className="text-center">questions@tcwashing.net</p>
               </div>
             </div>
-          </div>
+          </div> */}
 
-          <div
+          {/* <div
             className="flex h-full flex-col space-y-5 bg-transparent py-8 px-2 md:px-6"
             data-aos="fade-up"
             data-aos-delay="300"
@@ -126,15 +211,16 @@ const Pricing = () => {
                 PRICE*
               </div>
               <div className="flex flex-col items-baseline space-x-2 text-btnBg md:flex-row">
-                <div className="font-metMedi text-3xl">308</div>
-                <p className="text-base">(+50 second story)</p>
+                <div className="font-metMedi text-3xl">$0.18
+                /sqft</div>
+                <p className="text-base">(National Avg. $0.25-$0.50)</p>
               </div>
               <p>
-                This is our standard package, it includes a soft wash of your house. We recommend this package for clients who don't need their driveway or pathway cleaned.
+                This is our house-only cleaning package, it includes a soft wash of your house. We recommend this package for clients who don't need their driveway or pathway cleaned.
               </p>
               <div className="flex items-center space-x-2 text-lg">
                 <AiOutlineFieldTime className="text-plansPrice" size="1.5em" />
-                <p className="pt-1">~3 Hours</p>
+                <p className="pt-1">~2 Hours</p>
               </div>
             </div>
             <div className="flex-1">
@@ -157,16 +243,6 @@ const Pricing = () => {
               <div className="text-center font-metBold text-2xl">
                 Book Now:
               </div>
-              {/* <div className="grid gap-1.5 pt-2">
-                <a
-                  href="/returning-mobile"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="trans w-full rounded-full border-2 border-plansNameBorder bg-btnBg py-4 px-6 text-center font-metBold text-base uppercase tracking-widest text-white hover:bg-plansNameBorder hover:text-btnBg"
-                >
-                  Book
-                </a>
-              </div> */}
                 <div className="grid gap-1.5 pt-2">
                 <a
                   href="https://calendly.com/tcwashing/house?month=2023-05" //mailto:questions@tcwashing.net
@@ -179,9 +255,9 @@ const Pricing = () => {
                 <p className="text-center">questions@tcwashing.net</p>
               </div>
             </div>
-          </div>
+          </div> */}
           
-          <div
+          {/* <div
             className="flex h-full flex-col space-y-5 bg-transparent py-8 px-2 md:px-6"
             data-aos="fade-up"
             data-aos-delay="300"
@@ -194,12 +270,13 @@ const Pricing = () => {
                 PRICE*
               </div>
               <div className="flex flex-col items-baseline space-x-2 text-btnBg md:flex-row">
-                <div className="font-metMedi text-3xl">163</div>
-                <p className="text-base">(includes pathway)</p>
+                <div className="font-metMedi text-3xl">$0.20
+                /sqft</div>
+                <p className="text-base">(National Avg. $0.28/sqft, Ex: 800sqft = $160, Includes pathway)</p>
               </div>
               <p>
                 This is our driveway-only package. It includes the cleaning of both your driveway, and connecting path. We recommend this package
-                if your house has been cleaned recently but you are dissatisfied with your driveway.
+                if your house has been cleaned recently but you are dissatisfied with the state of your driveway.
               </p>
               <div className="flex items-center space-x-2 text-lg">
                 <AiOutlineFieldTime className="text-plansPrice" size="1.5em" />
@@ -229,16 +306,6 @@ const Pricing = () => {
               <div className="text-center font-metBold text-2xl">
                 Book Now:
               </div>
-              {/* <div className="grid gap-1.5 pt-2">
-                <a
-                  href="/returning-mobile"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="trans w-full rounded-full border-2 border-plansNameBorder bg-btnBg py-4 px-6 text-center font-metBold text-base uppercase tracking-widest text-white hover:bg-plansNameBorder hover:text-btnBg"
-                >
-                  Book
-                </a>
-              </div> */}
                 <div className="grid gap-1.5 pt-2">
                 <a
                   // href="mailto:questions@tcwashing.net"
@@ -252,7 +319,7 @@ const Pricing = () => {
                 <p className="text-center">questions@tcwashing.net</p>
               </div>
             </div>
-          </div>
+          </div> */}
           <div className="mx-2 rounded-2xl bg-aqua md:mx-6 lg:col-span-3">
             <div className="mx-auto py-4 px-4 sm:px-6 lg:px-8">
               <div className="flex items-center justify-center">
@@ -272,29 +339,29 @@ const Pricing = () => {
               </div>
             </div>
           </div>
-          
-          <div
-            className="flex h-full flex-col space-y-5 bg-transparent py-8 px-2 md:px-6 lg:col-span-3"
-            data-aos="fade-up"
-            data-aos-delay="300"
-          >
-            <p className="text-base w-full">*Extra fees may apply, all extra fees will be calculated before the appointment. Learn more below.</p>
+          <p className="hidden md:block text-xs pt-3">
+            *Price Matching is ultimately at our discretion, we want to give you a quality service at
+            the best price possible
+          </p>
+          <div className="md:hidden">
+            <div
+              className="flex h-full flex-col space-y-5 bg-transparent py-8 px-2 md:px-6 lg:col-span-3"
+              data-aos="fade-up"
+              data-aos-delay="300"
+            >
+            {/* <p className="text-base w-full">*Extra fees may apply, all extra fees will be calculated before the appointment. Learn more below.</p> */}
             <div className="w-full rounded-full border-plansNameBorder py-4 text-center font-metBold text-2xl uppercase tracking-widest text-btnBg md:border-2 md:px-4">
               available Add-ons
-              <p className="text-xl pt-3">Only Want Add Ons?            <a
-                  // href="mailto:questions@tcwashing.net"
-                  href="https://calendly.com/tcwashing/extras?month=2023-05"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="trans w-full rounded-full border-2 border-plansNameBorder bg-btnBg py-4 px-6 text-center font-metBold text-base uppercase tracking-widest text-white hover:bg-plansNameBorder hover:text-btnBg"
-                >
-                  Click Here!
-                </a></p>
             </div>
-            <div className="grid w-full grid-cols-1 gap-3 lg:grid-cols-2 lg:gap-8">
+            <div className="grid w-full grid-cols-1 lg:grid-cols-2 gap-3 lg:gap-8 lg:grid-rows-3">
+            <ol className="plansdivstIcon divst-inside space-y-3 font-metMedi text-base">
+              <li className="border-divstIcon border-b-2 pb-3">
+                  <Fences />
+                </li>
+              </ol>
             <ol className="plansdivstIcon divst-inside space-y-3 text-left font-metMedi text-base">
                 <li className="border-divstIcon border-b-2 pb-3">
-                  <Oversize />
+                  <Windows />
                 </li>
               </ol>
               {/* <ol className="plansdivstIcon divst-inside space-y-3 text-left font-metMedi text-base">
@@ -302,11 +369,6 @@ const Pricing = () => {
                   <Roof />
                 </li>
               </ol> */}
-              <ol className="plansdivstIcon divst-inside space-y-3 text-left font-metMedi text-base">
-                <li className="border-divstIcon border-b-2 pb-3">
-                  <Windows />
-                </li>
-              </ol>
               <ol className="plansdivstIcon divst-inside space-y-3 font-metMedi text-base">
               <li className="border-divstIcon border-b-2 pb-3">
                   <Patio />
@@ -317,11 +379,6 @@ const Pricing = () => {
                   <Pergola />
                 </li>
               </ol>
-              <ol className="plansdivstIcon divst-inside space-y-3 font-metMedi text-base">
-              <li className="border-divstIcon border-b-2 pb-3">
-                  <Other />
-                </li>
-              </ol>
               <ol className="plansdivstIcon divst-inside space-y-3 text-left font-metMedi text-base">
                 <li className="border-divstIcon border-b-2 pb-3">
                   <ConcreteSealer />
@@ -329,11 +386,21 @@ const Pricing = () => {
               </ol>
               <ol className="plansdivstIcon divst-inside space-y-3 font-metMedi text-base">
               <li className="border-divstIcon border-b-2 pb-3">
-                  <ExtraDirty />
+                  <Other />
                 </li>
               </ol>
+              {/* <ol className="plansdivstIcon divst-inside space-y-3 font-metMedi text-base">
+              <li className="border-divstIcon border-b-2 pb-3">
+                  <ExtraDirty />
+                </li>
+              </ol> */}
             </div>
           </div>
+          </div>
+          <p className="md:hidden text-xs">
+            *Price Matching is ultimately at our discretion, we want to give you a quality service at
+            the best price possible
+          </p>
         </div>
       </div>
     </div>
