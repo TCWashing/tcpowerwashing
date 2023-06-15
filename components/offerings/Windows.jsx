@@ -61,7 +61,7 @@ export default function Windows() {
                   </Dialog.Title>
                   <div className="mt-2">
                     <p className="text-base text-gray-500">
-                      Includes window cleaning for all windows
+                      We clean windows too! Let us know you want your windows cleaned when booking with us and we'll add it into the quote.
                     </p>
                     {/* <img
                       className="mt-4 w-full rounded-xl"

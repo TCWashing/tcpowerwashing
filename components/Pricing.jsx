@@ -18,7 +18,6 @@ const ExtraDirty = loadable(() => import("@/components/addons/ExtraDirty"));
 const Oversize = loadable(() => import("@/components/addons/Oversize"));
 const Fences = loadable(() => import("@/components/addons/Fences"));
 const SecondStory = loadable(() => import("@/components/addons/SecondStory"));
-const WindowsAddon = loadable(() => import("@/components/addons/Windows"));
 const EverythingStandard = loadable(() => import("@/components/addons/EverythingStandard"));
 const Sweep = loadable(() => import("@/components/addons/Sweep"));
 const CleaningSolution = loadable(() => import("@/components/addons/CleaningSolution"));
