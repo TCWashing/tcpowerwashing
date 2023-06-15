@@ -14,11 +14,11 @@ const DealBanner = () => {
             </span>
             <p className="truncate text-2xl font-metMedi text-background md:ml-5">
               <span className="md:hidden">
-                <span className="font-metBold">"MAY23"</span> For $20 Off
+                <span className="font-metBold">"JUN23"</span> For $20 Off
               </span>
               <span className="hidden md:inline">
                 <span className="font-metBold">$20</span> Off When
-                You Use Code <span className="font-metBold">"MAY23"</span>
+                You Use Code <span className="font-metBold">"JUN23"</span>
               </span>
             </p>
           </div>

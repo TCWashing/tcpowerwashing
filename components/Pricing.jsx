@@ -333,7 +333,7 @@ const Pricing = () => {
                   <span className="inline font-metMedi">
                     <span className="font-metBold">$20</span> Off Your Washing
                     When You Use Code{" "}
-                    <span className="font-metBold">"MAY23"</span>
+                    <span className="font-metBold">"JUN23"</span>
                   </span>
                 </p>
               </div>

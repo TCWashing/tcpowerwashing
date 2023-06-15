@@ -63,11 +63,11 @@ export default function Windows() {
                     <p className="text-base text-gray-500">
                       Includes window cleaning for all windows
                     </p>
-                    <img
+                    {/* <img
                       className="mt-4 w-full rounded-xl"
                       src="/img/foamWash.png"
                       alt="Before and after photo or a photo of us performing said task"
-                    />
+                    /> */}
                   </div>
 
                   <div className="mt-4">
