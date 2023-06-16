@@ -8,8 +8,8 @@ const Multiplier = () => {
   const [total, setTotal] = useState(0);
 
   useEffect(() => {
-    const multiplied1 = parseFloat(sqft1) * 0.18;
-    const multiplied2 = parseFloat(sqft2) * 0.20;
+    const multiplied1 = parseFloat(sqft1) * 0.16;
+    const multiplied2 = parseFloat(sqft2) * 0.18;
     const totalValue = (multiplied1 + multiplied2);
 
     setResult1(isNaN(multiplied1) ? 0 : multiplied1.toFixed(2));
@@ -29,7 +29,7 @@ const Multiplier = () => {
     <div style={containerStyle}>
     <p className="text-center font-metBold text-2xl uppercase md:hidden">try our pricing calculator!</p>
       <div style={sectionStyle}>
-        <h2>House Square Footage ($0.18/sqft)</h2>
+        <h2>House Square Footage ($0.16/sqft)</h2>
         <input
           type="number"
           value={sqft1}
@@ -43,7 +43,7 @@ const Multiplier = () => {
         </div>
       </div>
       <div style={sectionStyle}>
-        <h2>Driveway/Path Square Footage ($0.20/sqft)</h2>
+        <h2>Driveway/Path Square Footage ($0.18/sqft)</h2>
         <input
           type="number"
           value={sqft2}
