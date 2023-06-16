@@ -23,6 +23,12 @@
       "static/chunks/components_addons_Fences_jsx.js"
     ]
   },
+  "../components/Pricing.jsx -> @/components/addons/Gutters": {
+    "id": "../components/Pricing.jsx -> @/components/addons/Gutters",
+    "files": [
+      "static/chunks/components_addons_Gutters_jsx.js"
+    ]
+  },
   "../components/Pricing.jsx -> @/components/addons/Oversize": {
     "id": "../components/Pricing.jsx -> @/components/addons/Oversize",
     "files": [

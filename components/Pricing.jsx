@@ -17,6 +17,7 @@ const SpecialOther = loadable(() => import("@/components/offerings/SpecialOther"
 const ExtraDirty = loadable(() => import("@/components/addons/ExtraDirty"));
 const Oversize = loadable(() => import("@/components/addons/Oversize"));
 const Fences = loadable(() => import("@/components/addons/Fences"));
+const Gutters = loadable(() => import("@/components/addons/Gutters"));
 const SecondStory = loadable(() => import("@/components/addons/SecondStory"));
 const EverythingStandard = loadable(() => import("@/components/addons/EverythingStandard"));
 const Sweep = loadable(() => import("@/components/addons/Sweep"));
@@ -80,9 +81,14 @@ const Pricing = () => {
                 </a> */}
             </div>
             <div className="grid w-full grid-cols-1 gap-3">
-            <ol className="plansdivstIcon divst-inside space-y-3 font-metMedi text-base">
+              <ol className="plansdivstIcon divst-inside space-y-3 font-metMedi text-base">
                 <li className="border-divstIcon border-b-2 pb-3">
                   <Fences />
+                </li>
+              </ol>
+              <ol className="plansdivstIcon divst-inside space-y-3 font-metMedi text-base">
+                <li className="border-divstIcon border-b-2 pb-3">
+                  <Gutters />
                 </li>
               </ol>
             <ol className="plansdivstIcon divst-inside space-y-3 text-left font-metMedi text-base">
@@ -356,6 +362,11 @@ const Pricing = () => {
             <ol className="plansdivstIcon divst-inside space-y-3 font-metMedi text-base">
               <li className="border-divstIcon border-b-2 pb-3">
                   <Fences />
+                </li>
+              </ol>
+              <ol className="plansdivstIcon divst-inside space-y-3 font-metMedi text-base">
+                <li className="border-divstIcon border-b-2 pb-3">
+                  <Gutters />
                 </li>
               </ol>
             <ol className="plansdivstIcon divst-inside space-y-3 text-left font-metMedi text-base">

@@ -61,7 +61,7 @@ export default function Fences() {
                   </Dialog.Title>
                   <div className="mt-2">
                     <p className="text-base text-gray-500">
-                      We do Gutters too! Just contact us and we'll get a quote to you asap
+                      We do Gutters too! Just contact us and we'll get a quote to you as soon as possible.
                     </p>
                     {/* <img
                       className="mt-4 w-full rounded-xl"
